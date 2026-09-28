@@ -1,0 +1,26 @@
+﻿# Environment secrets - kabhi upload na hon
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node/Frontend
+node_modules/
+dist/
+frontend/dist/
+
+# Ollama (app + downloaded models - bohot bari binary files, source code nahi)
+Ollama/
+ollama-models/
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Ollama installer (agar bach gaya ho)
+OllamaSetup.exe

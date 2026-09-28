@@ -1,0 +1,6 @@
+﻿fastapi>=0.115
+uvicorn>=0.34
+anthropic>=0.42
+python-dotenv>=1.0
+pydantic>=2.11
+requests>=2.32
